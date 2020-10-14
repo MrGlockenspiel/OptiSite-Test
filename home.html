@@ -2,6 +2,14 @@
 <html lang="en">
 
 <head>
+  
+  <script>
+    function toggleDarkMode() {
+        var element = document.body;
+        element.classList.toggle("dark-mode");
+    }
+  </script>
+  
   <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
   <link rel="shortcut icon" href='img/favicon3.ico' />
   <link rel="stylesheet"
@@ -65,6 +73,13 @@
       <a href="social">Social Media</a>
       <a href="privacy">Privacy Policy</a>
       <a href="support">Help</a>
+      
+      <p>Dark Mode:</p>
+      <label class="switch">
+			  <input type="checkbox" onclick="toggleDarkMode()">
+			  <span class="slider"></span>
+		  </label>
+      
     </div>
   </div>
 </body>
