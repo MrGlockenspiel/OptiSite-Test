@@ -167,7 +167,7 @@ h2 {
 
 #optifine {
   position: fixed;
-  display: block;
+  display: flex;
   align-items: stretch;
   justify-content: center;
   font-family: 'Oswald', arial, helvetica, sans-serif;
