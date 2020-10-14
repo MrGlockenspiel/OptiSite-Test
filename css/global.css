@@ -148,7 +148,7 @@ h2 {
   color: #fff;
   padding: 0.5em 1em;
   transition: 100ms;
-  margin: 0 13em;
+  margin: 0 1px;
 }
 
 #nav a:hover, #footer a:hover, #nav a:focus, #footer a:focus {
