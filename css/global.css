@@ -40,32 +40,24 @@
   font-style: normal;
 }
 
-/*//////////////////////////////////////////////////////////////////////*/
-
-:root {
-  --color-bg: #ffffff;
-  --color-font: #23272A;
-  --color-header: #313E7C;
-}
-
-[data-theme="dark"] {
-  --color-bg: #23272A;
-  --color-font: #ffffff;
-  --color-header: #23272A;
-}
-
-/*//////////////////////////////////////////////////////////////////////*/
-
 html, body {
   margin: 0;
   height: 100%;
 }
 
 body {
+  --color-bg: #ffffff;
+  --color-font: #23272A;
+  --color-header: #313E7C;
   font-family: 'Roboto', arial, helvetica, sans-serif;
   font-weight: normal;
   font-style: normal; 
   color: var(--color-font);
+}
+.dark-mode {
+  --color-bg: #23272A;
+  --color-font: #ffffff;
+  --color-header: #23272A;
 }
 
 a {
