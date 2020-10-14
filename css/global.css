@@ -40,6 +40,24 @@
   font-style: normal;
 }
 
+/*//////////////////////////////////////////////////////////////////////*/
+
+:root {
+  --color-bg: #ffffff;
+  --color-font: #23272A;
+}
+
+.component {
+  background-color: var(--color-bg);
+}
+
+[data-theme="dark"] {
+  --color-bg: #23272A;
+  --color-font: #ffffff;
+}
+
+/*//////////////////////////////////////////////////////////////////////*/
+
 html, body {
   margin: 0;
   height: 100%;
@@ -50,7 +68,7 @@ body {
   font-weight: normal;
   font-style: normal;
   background-image: url('../img/snow64b.gif');
-  color: #0C0F1E;
+  color: var(--color-font);
 }
 
 a {
