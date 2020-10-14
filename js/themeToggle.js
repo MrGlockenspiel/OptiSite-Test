@@ -1,3 +1,12 @@
-document.getElementById('themeSwitch').addEventListener('change', function(event){
-  (event.target.checked) ? document.body.setAttribute('data-theme', 'dark') : document.body.removeAttribute('data-theme');
-});
+const toggleSwitch = document.querySelector('.theme-switch input[type="checkbox"]');
+
+function switchTheme(e) {
+  if (e.target.checked) {
+    document.documentElement.setAttribute('data-theme', 'dark');
+  } 
+  else {
+    document.documentElement.setAttribute('data-theme', 'light');
+  }    
+}
+
+toggleSwitch.addEventListener('change', switchTheme, false);
