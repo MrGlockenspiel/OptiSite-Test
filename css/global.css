@@ -139,7 +139,15 @@ h2 {
   margin: 0 1.5em;
 }
 
-#nav a, #footer a, #footer p {
+#footer a, #footer p {
+  color: white;
+  padding: 0.5em 1em;
+  transition: 100ms;
+  margin: 0 1px;
+  white-space: nowrap;
+}
+
+#nav a {
   font-size: 250%;
   color: white;
   padding: 0.5em 1em;
@@ -150,7 +158,7 @@ h2 {
 
 #nav a:hover, #footer a:hover, #nav a:focus, #footer a:focus {
   color: #313E7C;
-  background-color: #fff;
+  background-color: white;
 }
 
 #content {
@@ -169,7 +177,7 @@ h2 {
 
 .largeButton {
   background-color: #313E7C;
-  color: #fff;
+  color: white;
   padding: 0.5em 2em;
   font-size: 1.5em;
   box-shadow: 0 0 0 1px #313E7C inset;
