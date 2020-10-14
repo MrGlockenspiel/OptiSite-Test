@@ -166,6 +166,7 @@ h2 {
 
 
 #optifine {
+	position: fixed;
   display: flex;
   align-items: stretch;
   justify-content: center;
