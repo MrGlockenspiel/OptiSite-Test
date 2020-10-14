@@ -95,7 +95,7 @@ h2 {
   margin: 0 auto;
   max-width: 900px;
   min-width: 700px;
-  min-height: 256px;
+  min-height: 100%;
   display: flex;
   flex-direction: column;
   background-color: #23272A; /*/////////////////////////// BACKGROUND COLOR ITS "white" BY DEFAULT */
