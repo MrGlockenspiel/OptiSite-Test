@@ -81,6 +81,7 @@ h2 {
 #header {
   height: 5em;
   justify-content: space-between;
+  background-image: url('./img/header.png');
 }
 
 #wrapper {
