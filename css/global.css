@@ -49,9 +49,17 @@ body {
   font-family: 'Roboto', arial, helvetica, sans-serif;
   font-weight: normal;
   font-style: normal;
-  background-image: url('../img/snow64b.gif'); /*/////// SNOW IMAGE, MUST FIX */
-  color: #000000; /*//////////////////////////////////// TEXT COLOR MAYBE DEFAULT IS 0C0F1E */
+  background-image: url('../img/snow64b.gif'); /*/////// SNOW IMAGE */
+  color: #0C0F1E; 
 }
+.dark-mode {
+  font-family: 'Roboto', arial, helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  background-image: url('../img/snow64b_dark.png'); /*/////// DARK SNOW IMAGE */
+  color: #000000; 
+}
+
 
 a { /*////////////////////////////////////////////////// Optifine blue, normal is 313E7C */
   color: #313E7C;
@@ -71,14 +79,14 @@ h2 {
   margin-bottom: 0.3em;
   text-align: center;
 }
-
+/*////////////////////////////////////////////////////// 23272A is dark*/
 #header, #footer { /*/////////////////////////////////// HEADER AND FOOTER COLOR ITS 313E7C BY DEFAULT */
   width: 100%;
   display: flex;
-  background-color: #23272A;
+  background-color: #313E7C;
 }
 
-#header { /*//////////////////////////////////////////// HEADER MAYBE PROBABLY HOW TF WOULD I KNOW */
+#header {
   height: 5em; 
   justify-content: space-between;
 }
