@@ -49,7 +49,6 @@ body {
   --color-bg: #ffffff;
   --color-font: #23272A;
   --color-header: #313E7C;
-  --color-text-header: #ffffff;
   font-family: 'Roboto', arial, helvetica, sans-serif;
   font-weight: normal;
   font-style: normal; 
@@ -59,7 +58,6 @@ body {
   --color-bg: #23272A;
   --color-font: #ffffff;
   --color-header: #2C2F33;
-  --color-text-header: #ffffff;
 }
 
 a {
@@ -141,8 +139,8 @@ h2 {
   margin: 0 1.5em;
 }
 
-#nav a, #footer a {
-  color: var(--color-text-header);
+#nav a, #footer a, #footer p {
+  color: ffffff;
   padding: 0.5em 1em;
   transition: 100ms;
   margin: 0 1px;
