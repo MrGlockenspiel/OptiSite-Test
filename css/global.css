@@ -103,6 +103,7 @@ h2 {
   font-size: 300%;
   font-weight: bold;
   transition: 100ms;
+  background-image: url('./img/header.png');
 }
 
 #optifine:hover, #optifine:focus {
