@@ -116,7 +116,7 @@ h2 {
 }
 
 #optifine:hover, #optifine:focus {
-  background-color: transparent;
+  background-color: var(--color-bg);
 }
 
 #optifine a {
@@ -140,6 +140,7 @@ h2 {
 }
 
 #nav a, #footer a, #footer p {
+  font-size: 250%;
   color: white;
   padding: 0.5em 1em;
   transition: 100ms;
