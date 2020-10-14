@@ -175,6 +175,12 @@ h2 {
   font-weight: bold;
   transition: 100ms;
 }
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  transform: translate(-10%, -50%);
+}
 
 #optifine:hover, #optifine:focus {
   background-color: #fff;
