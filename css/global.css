@@ -50,7 +50,7 @@ body {
   font-weight: normal;
   font-style: normal;
   background-image: url('../img/snow64b.gif'); /*/////// SNOW IMAGE */
-  color: #0C0F1E; 
+  color: white; 
 }
 .dark-mode {
   font-family: 'Roboto', arial, helvetica, sans-serif;
@@ -87,7 +87,7 @@ h2 {
 }
 
 #header {
-  height: 5em; 
+  height: 16em; 
   justify-content: space-between;
 }
 
