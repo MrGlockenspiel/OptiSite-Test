@@ -53,8 +53,8 @@ body {
   color: #0C0F1E;
 }
 
-a {
-  color: #313E7C;
+a { /* Optifine blue, normal is 313E7C */
+  color: #000000;
   text-decoration: none;
 }
 
