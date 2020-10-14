@@ -97,7 +97,7 @@ h2 {
 }
 
 #header {
-  height: 5em;
+  height: 10em;
   justify-content: space-between;
   background-image: url('./img/header.png');
 }
@@ -118,7 +118,7 @@ h2 {
   align-items: stretch;
   justify-content: center;
   font-family: 'Oswald', arial, helvetica, sans-serif;
-  font-size: 300%;
+  font-size: 350%;
   font-weight: bold;
   transition: 100ms;
 }
