@@ -201,9 +201,9 @@ h2 {
 #nav {
   flex-grow: 1;
   display: flex;
-  align-items: center;
+  align-items: right;
   justify-content: flex-end;
-  margin: 0 1.5em;
+  margin: 0 10.375em;
 }
 
 #nav a, #footer a {
