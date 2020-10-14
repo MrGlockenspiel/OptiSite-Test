@@ -40,20 +40,6 @@
   font-style: normal;
 }
 
-:root {
-  --primary-color: white; /*////////////////////////*/
-  --font-color: #23272A; /*/////////////////////////*/
-  --secondary-color: #313E7C; /*////////////////////*/
-  --bg-image: url('../img/snow64b_light.png'); /*///*/
-}
-
-[data-theme="dark"] {
-  --primary-color: #23272A; /*//////////////////////*/
-  --font-color: white; /*///////////////////////////*/
-  --secondary-color: #313E7C; /*////////////////////*/
-  --bg-image: url('../img/snow64b_dark.png'); /*////*/
-}
-
 html, body {
   margin: 0;
   height: 100%;
@@ -63,12 +49,12 @@ body {
   font-family: 'Roboto', arial, helvetica, sans-serif;
   font-weight: normal;
   font-style: normal;
-  background-image: var(--bg-image); 
-  color: var(--font-color); 
+  background-image: url('../img/snow64b.gif');
+  color: #0C0F1E;
 }
 
-a { /*////////////////////////////////////////////////// Optifine blue, normal is 313E7C */
-  color: var(--secondary-color);
+a {
+  color: #313E7C;
   text-decoration: none;
 }
 
@@ -85,15 +71,15 @@ h2 {
   margin-bottom: 0.3em;
   text-align: center;
 }
-/*////////////////////////////////////////////////////// 23272A is dark */
-#header, #footer { /*/////////////////////////////////// HEADER AND FOOTER COLOR ITS 313E7C BY DEFAULT */
+
+#header, #footer {
   width: 100%;
   display: flex;
-  background-color: var(--secondary-color);
+  background-color: #313E7C;
 }
 
 #header {
-  height: 11.6875; 
+  height: 5em;
   justify-content: space-between;
 }
 
@@ -104,10 +90,9 @@ h2 {
   min-height: 100%;
   display: flex;
   flex-direction: column;
-  background-color: white; /*/////////////////////////// BACKGROUND COLOR ITS "white" BY DEFAULT */
+  background-color: white;
   box-shadow: 0px 0px 20px #96a0c5;
 }
-
 
 #optifine {
   display: flex;
@@ -118,7 +103,6 @@ h2 {
   font-weight: bold;
   transition: 100ms;
 }
-
 
 #optifine:hover, #optifine:focus {
   background-color: #fff;
@@ -141,7 +125,7 @@ h2 {
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  margin: 0 13em;
+  margin: 0 1.5em;
 }
 
 #nav a, #footer a {
@@ -152,7 +136,7 @@ h2 {
 }
 
 #nav a:hover, #footer a:hover, #nav a:focus, #footer a:focus {
-  color: var(--secondary-color);
+  color: #313E7C;
   background-color: #fff;
 }
 
@@ -171,7 +155,7 @@ h2 {
 }
 
 .largeButton {
-  background-color: var(--secondary-color);
+  background-color: #313E7C;
   color: #fff;
   padding: 0.5em 2em;
   font-size: 1.5em;
@@ -182,69 +166,5 @@ h2 {
 
 .largeButton:hover, .largeButton:focus {
   background-color: transparent;
-  color: var(--secondary-color);
-}
-
-
-
-
-
-
-
-.theme-switch-wrapper {
-  display: flex;
-  align-items: center;
-
-  em {
-    margin-left: 10px;
-    font-size: 1rem;
-  }
-}
-.theme-switch {
-  display: inline-block;
-  height: 34px;
-  position: relative;
-  width: 60px;
-}
-
-.theme-switch input {
-  display:none;
-}
-
-.slider {
-  background-color: #ccc;
-  bottom: 0;
-  cursor: pointer;
-  left: 0;
-  position: absolute;
-  right: 0;
-  top: 0;
-  transition: .4s;
-}
-
-.slider:before {
-  background-color: #fff;
-  bottom: 4px;
-  content: "";
-  height: 26px;
-  left: 4px;
-  position: absolute;
-  transition: .4s;
-  width: 26px;
-}
-
-input:checked + .slider {
-  background-color: #66bb6a;
-}
-
-input:checked + .slider:before {
-  transform: translateX(26px);
-}
-
-.slider.round {
-  border-radius: 34px;
-}
-
-.slider.round:before {
-  border-radius: 50%;
+  color: #313E7C;
 }
