@@ -37,7 +37,7 @@
 
 <body>
   <div id="wrapper">
-    <div id="header" style="background-image: url('./img/header.png');">
+    <div id="header"> <!--style="background-image: url('./img/header.png');" !-->
       <div id="optifine">
         <a href="home">OptiFine</a>
       </div>
@@ -58,14 +58,12 @@
     <div id="footer">
       <a href="social">Social Media</a>
       <a href="privacy">Privacy Policy</a>
-      <a href="support">Help</a>
-      
-      
+      <a href="support">Help</a>    
       <label class="switch">
+        <p>Dark Theme:</p>
         <input type="checkbox" onclick="toggleTheme();">
         <span class="slider"></span>
       </label>
-      
       <script>
         function toggleTheme() {
           var element = document.body;
