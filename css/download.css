@@ -90,12 +90,12 @@
 }
 
 .stable .itemdl:first-of-type a:first-of-type:hover, .stable .itemdl:first-of-type a:first-of-type:focus {
-  color: white;
+  color: var(--color-button-text-hover);
   background-color: transparent;
 }
 
 .stable .itemdl a:hover, .stable .itemdl a:focus {
-  color: white;
+  color: var(--color-button-text-hover);
   background-color: #313E7C;
 }
 
