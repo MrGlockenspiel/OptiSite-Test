@@ -90,17 +90,17 @@
 }
 
 .stable .itemdl:first-of-type a:first-of-type:hover, .stable .itemdl:first-of-type a:first-of-type:focus {
-  color: #313E7C;
+  color: var(--color-button-text-hover);
   background-color: transparent;
 }
 
 .stable .itemdl a:hover, .stable .itemdl a:focus {
-  color: white;
+  color: var(--color-button-text-hover);
   background-color: #313E7C;
 }
 
 .unstable .itemdl a {
-  color: #A82F2F;
+  color: var(--warning-text);
 }
 
 .unstable .itemdl:nth-child(2) {
@@ -124,7 +124,7 @@
 }
 
 .unstable .itemdl:nth-child(2) a:first-of-type:hover, .unstable .itemdl:nth-child(2) a:first-of-type:focus {
-  color: #A82F2F;
+  color: var(--warning-text);
   background-color: transparent;
 }
 
