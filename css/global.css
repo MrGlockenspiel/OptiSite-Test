@@ -59,6 +59,8 @@ body {
   
   --dl-page-accent: #E5EAFF;
   
+  --warning: #FFE5E5;
+  
   font-family: 'Roboto', arial, helvetica, sans-serif;
   font-weight: normal;
   font-style: normal; 
@@ -78,6 +80,8 @@ body {
   --color-OF-text-hover: white;
   
   --dl-page-accent: #2C2F33;
+  
+  --warning: #7d1818;
 }
 
 a {
