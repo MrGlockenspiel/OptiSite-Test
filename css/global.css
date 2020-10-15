@@ -144,7 +144,7 @@ h2 {
 }
 
 #optifine:hover > a, #optifine:focus > a {
-  color: rgba(var(--color-OF-text-hover), 0.5);
+  color: var(--color-OF-text-hover);
 }
 
 #nav {
