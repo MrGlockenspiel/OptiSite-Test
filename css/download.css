@@ -288,7 +288,7 @@
   padding: 0.5em 0;
   color: white;
   background-color: #313E7C;
-  box-shadow: 0 0 0 1px var(--color-header-font) inset;
+  box-shadow: 0 0 0 1px #313E7C inset;
   cursor: pointer;
   transition: 200ms;
 }
@@ -296,6 +296,7 @@
 #allv-label:hover {
   color: var(--color-header-font);
   background-color: transparent;
+  box-shadow: 0 0 0 1px var(--color-header-font) inset;
 }
 
 #allv-label:before {
