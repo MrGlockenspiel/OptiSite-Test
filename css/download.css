@@ -60,7 +60,7 @@
 .itemdl * {
   padding: 0.25em 0.5em;
   margin: 0 1px;
-  transition: 200ms;
+  transition: .5s;
   display: flex;
   align-items: center;
 }
