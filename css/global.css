@@ -119,7 +119,7 @@ h2 {
 }
 
 #optifine:hover, #optifine:focus {
-  background-color: rgba(var(--color-bg), 0.4);
+  background-color: rgba(var(--color-bg), 200);
 }
 
 #optifine a {
