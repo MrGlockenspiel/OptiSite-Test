@@ -49,6 +49,7 @@ body {
   --color-bg: white;
   --color-font: #23272A;
   --color-header: #313E7C;
+  --color-header-font: #313E7C;
   
   font-family: 'Roboto', arial, helvetica, sans-serif;
   font-weight: normal;
@@ -59,6 +60,7 @@ body {
   --color-bg: #23272A;
   --color-font: white;
   --color-header: #2C2F33;
+  --color-header-font: white;
 }
 
 a {
@@ -149,17 +151,16 @@ h2 {
 }
 
 #nav a {
-  font-size: 150%;
+  font-size: 125%;
   color: white;
   padding: 0.5em 1em;
   transition: 100ms;
   margin: 0 1px;
   white-space: nowrap;
-  background-color:rgba(var(--color-header), 0.5);
 }
 
 #nav a:hover, #footer a:hover, #nav a:focus, #footer a:focus {
-  color: #313E7C;
+  color: rgba(var(--color-header-font), 0.4);
   background-color: var(--color-bg);
 }
 
