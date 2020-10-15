@@ -60,6 +60,7 @@ body {
   --dl-page-accent: #E5EAFF;
   
   --warning: #FFE5E5;
+  --warning-text: #7d1818;
   
   font-family: 'Roboto', arial, helvetica, sans-serif;
   font-weight: normal;
@@ -82,6 +83,7 @@ body {
   --dl-page-accent: #2C2F33;
   
   --warning: #7d1818;
+  --warning-text: white;
 }
 
 a {
