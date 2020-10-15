@@ -54,8 +54,8 @@ body {
   --color-button-hover: white;
   --color-button-text-hover: #313E7C;
   
-  --color-OF-hover: rgba(255, 255, 255, 125);
-  --color-OF-text-hover: rgba(49, 56, 124, 125);
+  --color-OF-hover: 255, 255, 255;
+  --color-OF-text-hover: 49, 56, 124;
   
   font-family: 'Roboto', arial, helvetica, sans-serif;
   font-weight: normal;
@@ -70,6 +70,9 @@ body {
   
   --color-button-hover: #313E7C;
   --color-button-text-hover: white;
+  
+  --color-OF-hover: 49, 56, 124;   /*//////////////////////// 44, 47, 51 perhaps */
+  --color-OF-text-hover: 255, 255, 255;
   
 }
 
@@ -129,7 +132,7 @@ h2 {
 }
 
 #optifine:hover, #optifine:focus {
-  background-color: var(--color-OF-hover);
+  background-color: rgba(var(--color-OF-hover), 0.5);
 }
 
 #optifine a {
@@ -141,7 +144,7 @@ h2 {
 }
 
 #optifine:hover > a, #optifine:focus > a {
-  color: var(--color-OF-text-hover);
+  color: rgba(var(--color-OF-text-hover), 0.5);
 }
 
 #nav {
@@ -161,7 +164,7 @@ h2 {
 }
 
 #nav a {
-  font-size: 120%;
+  font-size: 130%;
   color: white;
   padding: 0.5em 1em;
   transition: 100ms;
