@@ -50,7 +50,9 @@ body {
   --color-font: #23272A;
   --color-header: #313E7C;
   --color-header-font: #313E7C;
-  --color-nav-a: white;
+  
+  --color-button-hover: white;
+  --color-button-text-hover: #313E7C;
   
   font-family: 'Roboto', arial, helvetica, sans-serif;
   font-weight: normal;
@@ -62,7 +64,9 @@ body {
   --color-font: white;
   --color-header: #2C2F33;
   --color-header-font: white;
-  --color-nav-a: #313E7C;
+  
+  --color-button-hover: #313E7C;
+  --color-button-text-hover: white;
   
 }
 
@@ -122,7 +126,7 @@ h2 {
 }
 
 #optifine:hover, #optifine:focus {
-  background-color: rgba(var(--color-bg), 200);
+  background-color: var(--color-button-hover);
 }
 
 #optifine a {
@@ -134,7 +138,7 @@ h2 {
 }
 
 #optifine:hover > a, #optifine:focus > a {
-  color: var(--color-header-font);
+  color: var(--color-button-text-hover);
 }
 
 #nav {
@@ -163,8 +167,8 @@ h2 {
 }
 
 #nav a:hover, #footer a:hover, #nav a:focus, #footer a:focus {
-  color: var(--color-header-font);
-  background-color: var(--color-bg);
+  color: var(--color-button-text-hover);
+  background-color: var(--color-button-hover);
 }
 
 #content {
@@ -182,7 +186,7 @@ h2 {
 }
 
 .largeButton {
-  background-color: #313E7C;
+  background-color: #313E7C; 
   color: white;
   padding: 0.5em 2em;
   font-size: 1.5em;
