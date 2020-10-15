@@ -11,7 +11,7 @@
 }
 
 .showall {
-  color: #313E7C;
+  color: var(--color-button-text-hover);
   cursor: pointer;
   user-select: none;
   display: inline-block;
@@ -34,7 +34,7 @@
 
 .showall:hover, .showall:focus {
   color: white;
-  background-color: #313E7C;
+  background-color: --color-button-hover;
 }
 
 .toggle-unstable {
@@ -84,7 +84,7 @@
 }
 
 .stable .itemdl:first-of-type a:first-of-type {
-  color: #FFF;
+  color: white;
   background-color: #313E7C;
   box-shadow: 0 0 0 1px #313E7C inset;
 }
@@ -95,7 +95,7 @@
 }
 
 .stable .itemdl a:hover, .stable .itemdl a:focus {
-  color: #FFF;
+  color: white;
   background-color: #313E7C;
 }
 
@@ -104,7 +104,7 @@
 }
 
 .unstable .itemdl:nth-child(2) {
-  background-color: #FFE5E5;
+  background-color: var(--warning);
 }
 
 /* .unstable .itemdl:nth-child(2) .ofversion:after {
