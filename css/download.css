@@ -33,7 +33,7 @@
 }
 
 .showall:hover, .showall:focus {
-  color: #FFF;
+  color: white;
   background-color: #313E7C;
 }
 
@@ -70,7 +70,7 @@
 }
 
 .stable .itemdl:first-child {
-  background-color: #E5EAFF;
+  background-color: var(--dl-page-accent);
 }
 
 /* .stable .itemdl:first-child .ofversion:after {
