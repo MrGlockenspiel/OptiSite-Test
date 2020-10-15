@@ -90,12 +90,12 @@
 }
 
 .stable .itemdl:first-of-type a:first-of-type:hover, .stable .itemdl:first-of-type a:first-of-type:focus {
-  color: var(--color-button-text-hover);
+  color: white;
   background-color: transparent;
 }
 
 .stable .itemdl a:hover, .stable .itemdl a:focus {
-  color: var(--color-button-text-hover);
+  color: white;
   background-color: #313E7C;
 }
 
@@ -225,7 +225,7 @@
   right: 0;
   top: 0;
   bottom: 0;
-  transition: 100ms;
+  transition: 200ms;
 }
 
 #selectVerLabel:hover ~ #selectVerStyle:before, #selectVerLabel:focus ~ #selectVerStyle:before, #selectVerStyle:hover:before, #selectVerStyle:focus:before {
