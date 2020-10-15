@@ -54,8 +54,8 @@ body {
   --color-button-hover: white;
   --color-button-text-hover: #313E7C;
   
-  --color-OF-hover: 255, 255, 255;
-  --color-OF-text-hover: 49, 56, 124;
+  --color-OF-hover: white;
+  --color-OF-text-hover: #313E7C;
   
   font-family: 'Roboto', arial, helvetica, sans-serif;
   font-weight: normal;
@@ -71,8 +71,8 @@ body {
   --color-button-hover: #313E7C;
   --color-button-text-hover: white;
   
-  --color-OF-hover: 49, 56, 124;   /*//////////////////////// 44, 47, 51 perhaps */
-  --color-OF-text-hover: 255, 255, 255;
+  --color-OF-hover: #2C2F33;
+  --color-OF-text-hover: #313E7C; /*////////////////////////////////////////////////////*/
   
 }
 
