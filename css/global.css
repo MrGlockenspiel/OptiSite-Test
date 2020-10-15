@@ -54,6 +54,9 @@ body {
   --color-button-hover: white;
   --color-button-text-hover: #313E7C;
   
+  --color-OF-hover: rgba(255, 255, 255, 125);
+  --color-OF-text-hover: rgba(49, 56, 124, 125);
+  
   font-family: 'Roboto', arial, helvetica, sans-serif;
   font-weight: normal;
   font-style: normal; 
@@ -126,7 +129,7 @@ h2 {
 }
 
 #optifine:hover, #optifine:focus {
-  background-color: var(--color-button-hover);
+  background-color: var(--color-OF-hover);
 }
 
 #optifine a {
@@ -138,7 +141,7 @@ h2 {
 }
 
 #optifine:hover > a, #optifine:focus > a {
-  color: var(--color-button-text-hover);
+  color: var(--color-OF-text-hover);
 }
 
 #nav {
