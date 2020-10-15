@@ -46,9 +46,10 @@ html, body {
 }
 
 body {
-  --color-bg: #ffffff;
+  --color-bg: white;
   --color-font: #23272A;
   --color-header: #313E7C;
+  
   font-family: 'Roboto', arial, helvetica, sans-serif;
   font-weight: normal;
   font-style: normal; 
@@ -56,7 +57,7 @@ body {
 }
 .dark-mode {
   --color-bg: #23272A;
-  --color-font: #ffffff;
+  --color-font: white;
   --color-header: #2C2F33;
 }
 
