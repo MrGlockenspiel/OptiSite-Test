@@ -128,18 +128,18 @@ h2 {
   font-family: 'Oswald', arial, helvetica, sans-serif;
   font-size: 550%;
   font-weight: bold;
-  transition: 100ms;
+  transition: 250ms;
 }
 
 #optifine:hover, #optifine:focus {
-  background-color: rgba(var(--color-OF-hover), 0.5);
+  background-color: var(--color-OF-hover);
 }
 
 #optifine a {
   width: 100%;
   text-align: center;
   color: #fff;
-  transition: 100ms;
+  transition: 250ms;
   padding: 0 0.5em;
 }
 
@@ -158,16 +158,16 @@ h2 {
 #footer a, #footer p {
   color: white;
   padding: 0.5em 1em;
-  transition: 100ms;
+  transition: 250ms;
   margin: 0 1px;
   white-space: nowrap;
 }
 
 #nav a {
-  font-size: 130%;
+  font-size: 135%;
   color: white;
   padding: 0.5em 1em;
-  transition: 100ms;
+  transition: 250ms;
   margin: 0 1px;
   white-space: nowrap;
 }
@@ -198,7 +198,7 @@ h2 {
   font-size: 1.5em;
   box-shadow: 0 0 0 1px #313E7C inset;
   text-align: center;
-  transition: 100ms;
+  transition: 250ms;
 }
 
 .largeButton:hover, .largeButton:focus {
@@ -228,8 +228,8 @@ h2 {
   right: 0;
   bottom: 0;
   background-color: #ccc;
-  -webkit-transition: .4s;
-  transition: .4s;
+  -webkit-transition: .5s;
+  transition: .5s;
   border-radius: 34px;
 }
 
@@ -241,8 +241,8 @@ h2 {
   left: 4px;
   bottom: 4px;
   background-color: white;
-  -webkit-transition: .4s;
-  transition: .4s;
+  -webkit-transition: .5s;
+  transition: .5s;
   border-radius: 50%;
 }
 
