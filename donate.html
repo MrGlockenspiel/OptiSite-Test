@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
   <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
@@ -35,17 +35,13 @@
     href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&family=Roboto:wght@400;700&display=swap"/>
   <link rel="stylesheet" href="css/global.css" />
   <link rel="stylesheet" href="css/donate.css" />
-  <link rel="stylesheet" title="capeEditorCSS" href="css/capeEditor.css" />
-
-  <script src="https://unpkg.com/jimp@0.14.0/browser/lib/jimp.js"></script>
-  <script src="js/capeEditor.js"></script>
 
   <title>Donate | OptiFine</title>
 </head>
 
 <body>
   <div id="wrapper">
-    <div id="header" style="background-image: url('./img/header.png');">
+    <div id="header">
       <div id="optifine">
         <a href="home">OptiFine</a>
       </div>
@@ -66,88 +62,8 @@
       Minecraft username (optional)
       <input type="text" id="playerName" placeholder="Steve" _autocomplete="off" maxlength="16" size="16" pattern="[a-zA-Z0-9_]{1,16}">
 
-      <div id="capeEditor" class="unloaded">
-        <input type="checkbox" autocomplete="off" id="enable3d" class="editor-input">
-        <input type="checkbox" autocomplete="off" id="flip" class="editor-input">
-        <input type="checkbox" autocomplete="off" id="shade" class="editor-input" checked>
-
-        <div id="drawer">
-          <select id="presets">
-            <option style="display: none">Custom</option>
-          </select>
-
-          <div id="layers">
-            <div id="baseLayer" class="layer">
-              <div class="patternPreview" style="background-color: #882D2D"></div>
-              <span>Base</span>
-              <label class="editor-button" title="Edit Pattern">
-                Edit
-                <input type="button" class="editor-input openPatterns">
-              </label>
-            </div>
-            <div id="addLayer" class="canAdd"></div>
-          </div>
-
-          <div class="editor-toolbar">
-            <label for="enable3d" class="editor-button" title="Toggle 3D View">
-              3D
-            </label>
-
-            <label for="flip" class="editor-button" title="View Back">Flip</label>
-
-            <label for="shade" class="editor-button" title="Toggle Shading">
-              Shade 
-            </label>
-
-            <label class="editor-button" title="test">
-              Redraw <input type="button" id="redraw" class="editor-input">
-            </label>
-          </div>
-        </div>
-
-        <div id="patternEditor" style="display:none">
-          <h3>Layer</h3>
-          <div id="patternSelector">
-          </div>
-
-          <input type="range" min="0" max="360" value="0" id="colorH">
-          <input type="range" min="0" max="100" value="0" id="colorS" style="background: linear-gradient(90deg, white, red);">
-          <input type="range" min="0" max="100" value="50" id="colorV" style="background: linear-gradient(90deg, black, red, white);">
-
-          <div id="hexcolor">
-            <span>#</span> 
-            <input type="text" id="patternColor" autocomplete="off" maxlength="7" value="FFFFFF" size="6" pattern="[0-9a-fA-F]{6}|[0-9a-fA-F]{3}">
-          </div>
-
-          <div class="editor-toolbar">
-            <input type="button" id="done" class="editor-input">
-            <label for="done" class="editor-button" title="Done">OK</label>
-          </div>
-        </div>
-
-        <div id="wrapper3D">
-          <div id="viewport">
-            <div id="capeOrigin">
-              <div id="capeTop" class="capeTex cape"></div>
-              <div id="capeRight" class="capeTex cape"></div>
-              <div id="capeFront" class="capeTex cape"></div>
-              <div id="capeLeft" class="capeTex cape"></div>
-              <div id="capeBack" class="capeTex cape"></div>
-              <div id="capeBottom" class="capeTex cape"></div>
-            </div>
-  
-            <div id="elytraOrigin">
-              <div id="elytraTop" class="capeTex elytra"></div>
-              <div id="elytraRight" class="capeTex elytra"></div>
-              <div id="elytraFront" class="capeTex elytra"></div>
-              <div id="elytraLeft" class="capeTex elytra"></div>
-              <div id="elytraBack" class="capeTex elytra"></div>
-              <div id="elytraBottom" class="capeTex elytra"></div>
-            </div>
-          </div>
-
-          <span id="renderTime"></span>
-        </div>
+      <div id="capeEditorFrame">
+        <iframe src="capeEditor.html"></iframe>
       </div>
 
       <a class="largeButton" href="">Continue</a>
@@ -158,13 +74,7 @@
     <div id="footer">
       <a href="social">Social Media</a>
       <a href="privacy">Privacy Policy</a>
-      <a href="support">Help</a>  
-      <p>Dark Theme:</p>
-      <label class="switch">
-        <input type="checkbox" onclick="toggleTheme();">
-        <span class="slider"></span>
-      </label>
-      <script src="js/themeToggle.js"></script>
+      <a href="support">Help</a>
     </div>
   </div>
 </body>
