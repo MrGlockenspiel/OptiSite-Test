@@ -96,12 +96,12 @@
 }
 
 .stable .itemdl a:hover, .stable .itemdl a:focus {
-  color: var(--color-button-text-hover);
+  color: white;
   background-color: #313E7C;
 }
 
 .stable .itemdl a {
-  color: var(--color-button-hover);
+  color: var(--color-button-text-hover);
 }
 
 .unstable .itemdl a {
