@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+
+  <link rel="stylesheet" href="css/global.css" />
+  <link rel="stylesheet" title="capeEditorCSS" href="css/capeEditor.css" />
+
+  <script src="js/jimp.js"></script>
+  <script type="module" src="js/capeEditor.js"></script>
+</head>
+
+<body>
+  <div id="loadingCircle"></div>
+  <input type="checkbox" autocomplete="off" id="enable3d" class="editor-input">
+  <input type="checkbox" autocomplete="off" id="flip" class="editor-input">
+  <input type="checkbox" autocomplete="off" id="shade" class="editor-input" checked>
+
+  <div id="drawer">
+    <select id="presets">
+      <option style="display: none">Custom</option>
+    </select>
+
+    <div id="layers">
+      <div id="baseLayer" class="layer itembar-spaced">
+        <input type="checkbox" checked disabled> <!-- only for some visual consistency -->
+        <div class="patternPreview" style="background-color: #882D2D"></div>
+        <span>Base Layer</span>
+        <label class="editor-button" title="Edit Pattern">
+          Edit
+          <input type="button" class="editor-input openPatterns">
+        </label>
+      </div>
+      <div id="addLayer" class="canAdd"></div>
+    </div>
+
+    <div class="editor-toolbar itembar">
+      <label for="shade" class="editor-button" title="Toggle Shading">
+        toggle shading
+      </label>
+    </div>
+  </div>
+
+  <div id="patternEditor" style="display:none">
+    <h3>Layer</h3>
+    <div id="patternSelector">
+    </div>
+
+    <input type="range" min="0" max="360" value="0" id="colorH">
+    <input type="range" min="0" max="100" value="0" id="colorS" style="background: linear-gradient(90deg, white, red);">
+    <input type="range" min="0" max="100" value="50" id="colorV"
+      style="background: linear-gradient(90deg, black, red, white);">
+
+    <div id="hexcolor">
+      <span>#</span>
+      <input type="text" id="patternColor" autocomplete="off" maxlength="7" value="FFFFFF" size="6"
+        pattern="[0-9a-fA-F]{6}|[0-9a-fA-F]{3}">
+    </div>
+
+    <div class="editor-toolbar itembar">
+      <input type="button" id="done" class="editor-input">
+      <input type="button" id="cancel" class="editor-input">
+      <label for="done" class="editor-button" title="Done">OK</label>
+      <label for="cancel" class="editor-button" title="Cancel">Cancel</label>
+    </div>
+  </div>
+
+  <div id="viewport">
+    <span id="renderTime"></span>
+  </div>
+</body>
+
+</html>
