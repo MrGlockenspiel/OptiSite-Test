@@ -55,6 +55,7 @@
   justify-content: space-between;
   margin: 0.25em 0;
   padding: 0.25em;
+  transition: 200ms;
 }
 
 .itemdl * {
@@ -97,6 +98,10 @@
 .stable .itemdl a:hover, .stable .itemdl a:focus {
   color: var(--color-button-text-hover);
   background-color: #313E7C;
+}
+
+.stable .itemdl a {
+  color: var(--color-button-hover);
 }
 
 .unstable .itemdl a {
